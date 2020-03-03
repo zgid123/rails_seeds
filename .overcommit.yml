@@ -1,0 +1,6 @@
+PreCommit:
+  AuthorName:
+    enabled: false
+  RuboCop:
+    enabled: true
+    on_warn: fail # Treat all warnings as failures

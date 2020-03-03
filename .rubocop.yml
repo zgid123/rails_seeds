@@ -1,0 +1,89 @@
+AllCops:
+  Exclude:
+    - .gems/**/*
+    - spec/rails_helper.rb
+    - spec/spec_helper.rb
+    - Rakefile
+
+Naming/AccessorMethodName:
+  Enabled: false
+
+Layout/ParameterAlignment:
+  EnforcedStyle: with_fixed_indentation
+
+Style/AndOr:
+  Enabled: false
+
+Style/Documentation:
+  Enabled: false
+
+Layout/EmptyLinesAroundBlockBody:
+  Enabled: false
+
+Layout/EmptyLinesAroundClassBody:
+  Enabled: false
+
+Layout/EmptyLinesAroundModuleBody:
+  Enabled: false
+
+Style/FrozenStringLiteralComment:
+  Enabled: false
+
+Style/GuardClause:
+  Enabled: false
+
+Style/IfUnlessModifier:
+  Enabled: false
+
+Layout/MultilineMethodCallIndentation:
+  EnforcedStyle: aligned
+
+Style/MutableConstant:
+  Enabled: true
+
+Style/Semicolon:
+  AllowAsExpressionSeparator: true
+
+Layout/SpaceInsidePercentLiteralDelimiters:
+  Enabled: false
+
+Style/SingleLineBlockParams:
+  Enabled: false
+
+Metrics/AbcSize:
+  Max: 60
+
+Metrics/BlockNesting:
+  Max: 4
+
+Metrics/BlockLength:
+  Max: 50
+  Exclude:
+    - spec/**/*
+
+Metrics/ClassLength:
+  Max: 250
+
+Metrics/ModuleLength:
+  Max: 250
+
+Layout/LineLength:
+  Enabled: false
+
+Metrics/MethodLength:
+  Max: 30
+
+Metrics/ParameterLists:
+  Enabled: false
+
+Bundler/OrderedGems:
+  Enabled: false
+
+Style/HashEachMethods:
+  Enabled: true
+
+Style/HashTransformKeys:
+  Enabled: true
+
+Style/HashTransformValues:
+  Enabled: true
