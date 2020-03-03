@@ -14,4 +14,5 @@ Gem::Specification.new do |spec|
   spec.licenses              = ['MIT']
   spec.files                 = Dir['{lib/**/*,[A-Z]*}']
   spec.required_ruby_version = '>= 2.3'
+  spec.homepage              = 'https://github.com/zgid123/rails_seeds'
 end
