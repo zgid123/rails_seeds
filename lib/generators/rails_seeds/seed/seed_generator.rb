@@ -9,7 +9,7 @@ module RailsSeeds
 
         FileUtils.mkdir_p(seed_folder) unless File.exist?(seed_folder)
 
-        path = File.join(seed_folder, "#{Time.now.strftime('%Y%m%d%H%M%S')}_#{file.snakecase}.rb")
+        path = File.join(seed_folder, "#{Time.now.strftime('%Y%m%d%H%M%S')}_#{file.underscore}.rb")
         FileUtils.touch(path)
 
         puts "Create seed file #{path}"
